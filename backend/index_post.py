@@ -11,7 +11,7 @@ db_history = DynamoDB(table='history')
 # endpoint = "sms-spam-classifier-mxnet-2022-04-20-01-07-32-116"    # ------------> NLP model endpoint
 endpoint = 'https://search-photos-bxigr5a2lhirygbext2ru46tui.us-east-1.es.amazonaws.com'
 index = 'photos'
-auth = ('master', 'Cc12345678!')
+auth = ('master', 'code')
 es = ElasticSearch(endpoint=endpoint, index=index, auth=auth)
 
 s3_client = boto3.client('s3')

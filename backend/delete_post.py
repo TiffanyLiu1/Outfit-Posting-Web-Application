@@ -7,7 +7,7 @@ db_post = DBHandle(table='post')
 db_user = DBHandle(table='user')
 bucket_name = 'post-s3-bucket'
 s3 = boto3.client('s3')
-auth = ('master', 'Cc12345678!')
+auth = ('master', 'code')
 
 
 def lambda_handler(event, context):

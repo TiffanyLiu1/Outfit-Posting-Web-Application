@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[7]:
-
-
 import sys
 import re
 import json
@@ -210,8 +204,6 @@ if __name__ == "__main__":
         print("\nDownloading completed !!")
     else:
         print("\nNothing to download !!")
-
-# In[ ]:
 
 
 

@@ -67,7 +67,9 @@ Cloning the repository and installing its dependencies:
 
 ```sh
 git clone https://github.com/TiffanyLiu1/Outfit-Posting-Web-Application.git
-cd Outfit-Posting-Web-Application\frontend\photo-sharing-platform
+cd Outfit-Posting-Web-Application
+cd frontend
+cd photo-sharing-platform
 npm install
 npm start
 ```
