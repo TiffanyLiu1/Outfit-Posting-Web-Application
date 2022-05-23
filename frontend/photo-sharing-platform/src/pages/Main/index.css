@@ -1,0 +1,28 @@
+.mainContainer {
+    min-width: 1200px;
+}
+
+.add {
+    width: 80px;
+    height: 80px;
+    background-color: #DC3545;
+    border-radius: 50%;
+    position: fixed;
+    right: 10%;
+    bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.add:hover {
+    background-color: rgb(255, 27, 49);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+    color: #fff;
+}

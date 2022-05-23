@@ -1,0 +1,55 @@
+.colBox {
+    position: relative;
+    height: 320px;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.colBox .imgBox {
+    width: 200px;
+    height: 320px;
+    border-radius: 20px;
+    cursor: zoom-in;
+    overflow: hidden;
+}
+
+.blur {
+    /* filter: brightness(0.1); */
+}
+
+.colBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+
+.colBox:hover img{
+    filter: brightness(0.8);
+}
+
+.imgInfoBox {
+    display: none;
+    position: absolute;
+    font-size: 50px;
+    top: 220px;
+    left: 80px;
+    cursor: pointer;
+}
+
+.imgInfoBox .fa-heart {
+    color: #DC3545;
+}
+
+.imgInfoBox .fa-times-circle {
+    color: rgb(204, 201, 201);
+}
+
+.colBox:hover .imgInfoBox {
+    display: block;
+}

@@ -1,0 +1,77 @@
+.topbar .topBarHome {
+	background-color: #DC3545;
+	width: 80px;
+	border-radius: 100px;
+	display: flex;
+	justify-content: center;
+	transition: all 0.4s;
+}
+
+.topbar .topBarHome:hover {
+	background-color: rgb(255, 27, 49);
+}
+
+.topbar .topBarHome a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.topbar .topBarInput {
+	width: 1000px;
+	border-radius: 100px;
+}
+
+.topbar .topBarSearchBtn {
+	width: 38px;
+	border-radius: 100px;
+	margin-left: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topbar .topBarUser {
+	display: flex;
+}
+
+.topbar .topBarUser .dropdown>a {
+	color: #000;
+	transition: all 0.4s;
+}
+
+.topbar .topBarUser .dropdown>a:hover {
+	color: rgb(255, 27, 49);
+}
+
+.topbar .topBarUser .topBarAvatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	transition: all 0.4s;
+	margin: 0 10px;
+}
+
+.topbar .topBarUser .topBarAvatar img {
+	width: 100%;
+}
+
+.topbar .topBarUser .topBarAvatar:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+#topBarDropdown {
+	background-color: #212529;
+	border-color: #212529;
+	color: #fff;
+}
+
+#topBarDropdown:hover {
+	color: #DC3545;
+}
+
+#topBarDropdown:focus {
+	color: #DC3545;
+	box-shadow: none;
+}
